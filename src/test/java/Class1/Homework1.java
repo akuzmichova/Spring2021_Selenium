@@ -1,6 +1,8 @@
 package Class1;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -25,6 +27,7 @@ public class Homework1 {
         Assert.assertEquals(url, pageUrl, "Page url is not as expected");
 
         driver.close();
+
 
     }
 }
